@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="Строительная компания &quot;Тарья&quot;" Height="450" Width="800">
     <Window.Background>
-        <ImageBrush ImageSource="/главное.jpg"/>
+        <ImageBrush ImageSource="/главное.jpg" TileMode="None"/>
     </Window.Background>
     <Grid Margin="0,0,0,-6">
         <Grid.Background>
@@ -39,6 +39,12 @@
                 <ImageBrush ImageSource="/5.jpg"/>
             </Button.Background>
         </Button>
+        <!-- Контент страницы -->
+        <TextBlock Text="Добро пожаловать в строительную компанию &quot;Тарья&quot;!" FontSize="24" Margin="82,94,82,278" Foreground="White"/>
+        <TextBlock Text="У нас вы можете заказать услуги по строительству, ремонту и реставрации различных объектов." Margin="90,300,59,74" Foreground="White" TextDecorations="Underline" FontStyle="Italic" FontWeight="Bold"/>
+        <TextBlock Text="Мы предлагаем высокое качество работ и индивидуальный подход к каждому клиенту." Margin="151,321,125,55" Foreground="White" TextDecorations="Underline" FontStyle="Italic"/>
+        <TextBlock Text="Свяжитесь с нами, чтобы узнать подробности и заказать услуги!" Margin="231,344,179,38" Foreground="White"/>
+        <Image HorizontalAlignment="Left" Height="62" Margin="36,10,0,0" VerticalAlignment="Top" Width="100" Source="/kjujnbg.png" Stretch="Fill"/>
 
     </Grid>
 </Window>

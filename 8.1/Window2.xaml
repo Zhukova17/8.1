@@ -8,6 +8,8 @@
         Title="Администратор" Height="478" Width="800">
     <Grid Margin="0,0,0,-6">
         <Image HorizontalAlignment="Center" Height="86" VerticalAlignment="Top" Width="800" Source="/2.jpg" Stretch="UniformToFill"/>
+        <Button Content="Выход" HorizontalAlignment="Left" Margin="696,420,0,0" VerticalAlignment="Top" Width="80" Height="30"/>
+        <Image HorizontalAlignment="Left" Height="62" Margin="36,17,0,0" VerticalAlignment="Top" Width="100" Source="/логотип1.png"/>
 
     </Grid>
 </Window>
