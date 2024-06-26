@@ -1,0 +1,50 @@
+﻿<Window x:Class="_8._1.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_8._1"
+        mc:Ignorable="d"
+        Title="Строительная компания &quot;Тарья&quot;" Height="450" Width="800">
+    <Window.Background>
+        <ImageBrush ImageSource="/главное.jpg" TileMode="None"/>
+    </Window.Background>
+    <Grid Margin="0,0,0,-6">
+        <Grid.Background>
+            <ImageBrush Stretch="UniformToFill"/>
+        </Grid.Background>
+        <Image HorizontalAlignment="Center" Height="86" VerticalAlignment="Top" Width="800" Source="/2.jpg" Stretch="UniformToFill"/>
+        <Button Content="Проекты" HorizontalAlignment="Left" Margin="162,32,0,0" VerticalAlignment="Top" Height="32" Width="100">
+            <Button.Background>
+                <ImageBrush ImageSource="/5.jpg"/>
+            </Button.Background>
+        </Button>
+        <Button Content="Контакты" HorizontalAlignment="Left" Margin="521,32,0,0" VerticalAlignment="Top" Height="30" Width="100">
+            <Button.Background>
+                <ImageBrush ImageSource="/5.jpg"/>
+            </Button.Background>
+        </Button>
+        <Button Content="Фото" HorizontalAlignment="Left" Margin="400,32,0,0" VerticalAlignment="Top" Height="32" Width="100">
+            <Button.Background>
+                <ImageBrush ImageSource="/5.jpg"/>
+            </Button.Background>
+        </Button>
+        <Button Content="Услуги" HorizontalAlignment="Left" Margin="280,32,0,0" VerticalAlignment="Top" Height="32" Width="100">
+            <Button.Background>
+                <ImageBrush ImageSource="/5.jpg"/>
+            </Button.Background>
+        </Button>
+        <Button Content="Поддержка" HorizontalAlignment="Left" Margin="641,33,0,0" VerticalAlignment="Top" Height="30" Width="100">
+            <Button.Background>
+                <ImageBrush ImageSource="/5.jpg"/>
+            </Button.Background>
+        </Button>
+        <!-- Контент страницы -->
+        <TextBlock Text="Добро пожаловать в строительную компанию &quot;Тарья&quot;!" FontSize="24" Margin="82,94,82,278" Foreground="White"/>
+        <TextBlock Text="У нас вы можете заказать услуги по строительству, ремонту и реставрации различных объектов." Margin="90,300,59,74" Foreground="White" TextDecorations="Underline" FontStyle="Italic" FontWeight="Bold"/>
+        <TextBlock Text="Мы предлагаем высокое качество работ и индивидуальный подход к каждому клиенту." Margin="151,321,125,55" Foreground="White" TextDecorations="Underline" FontStyle="Italic"/>
+        <TextBlock Text="Свяжитесь с нами, чтобы узнать подробности и заказать услуги!" Margin="231,344,179,38" Foreground="White"/>
+        <Image HorizontalAlignment="Left" Height="62" Margin="36,10,0,0" VerticalAlignment="Top" Width="100" Source="/kjujnbg.png" Stretch="Fill"/>
+
+    </Grid>
+</Window>
